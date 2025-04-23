@@ -4,10 +4,9 @@ import Router from "./routes/Router";
 import './App.css'
 
 function App() {
-
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename={import.meta.env.BASE_URL}>
         <Router />
       </BrowserRouter>
     </>
