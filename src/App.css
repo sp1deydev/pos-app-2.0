@@ -111,7 +111,7 @@
   width: 12rem;
 }
 :where(.cart-table) .ant-table-container {
-  min-height: calc(100vh - 14.5rem);
+  min-height: calc(100vh - 13rem);
 }
 :where(.cart-table) .ant-table-container {
   scrollbar-width: thin;
